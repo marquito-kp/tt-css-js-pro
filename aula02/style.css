@@ -1,13 +1,14 @@
 :root {
     --cor-de-fundo: black;
     --tamanho-de-fonte: 30px;
+    --heigh: 200px;
+    --width: 200px;
 }
 
 body, html {
     width: 100%;
     height: 100vh;
     background-color: var(--cor-de-fundo);
-
 }
 
 * {
@@ -20,8 +21,8 @@ body, html {
 
 #header-id {
     background-color: blue;
-    width: 200px;
-    height: 200px;
+    width: var(--width);
+    height: var(--heigh);
 }
 
 /* #header-id p {
@@ -40,12 +41,12 @@ body, html {
 
 #main-id {
     background-color: pink;
-    width: 200px;
-    height: 200px;
+    width: var(--width);
+    height: var(--heigh);
 }
 
 #footer-id {
     background-color: grey;
-    width: 200px;
-    height: 200px;
+    width: var(--width);
+    height: var(--heigh);
 }

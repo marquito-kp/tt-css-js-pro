@@ -1,0 +1,13 @@
+.index1 {
+    position:relative;
+    background-color: greenyellow;
+    top: -10px;
+    z-index: 1;
+}
+
+.index2 {
+    position: absolute;
+    top: 50px;
+    background-color: lightcoral;
+    z-index: 2;
+}

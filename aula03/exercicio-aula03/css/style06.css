@@ -1,0 +1,50 @@
+p {
+    color: rebeccapurple;
+    font-weight: bold;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+
+.exemplo07 {
+    background: rebeccapurple;
+    width: 250px;
+    height: 150px;
+    margin: 0 auto;
+    display: flex;
+    align-items: flex-end;
+}
+
+.exemplo07-box1,
+.exemplo07-box2,
+.exemplo07-box3,
+.exemplo07-box4 {
+    background: white;
+    width: 40px;
+    height: 30px;
+    margin: 10px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+}
+
+.exemplo07-box1 {
+    top: 1042px;
+    left: 18vw;
+}
+
+.exemplo07-box2 {
+    top: 1042px;
+    right: 25.5vw;
+}
+
+.exemplo07-box3{
+    left: 18vw;
+    top: 1162px ;
+}
+
+.exemplo07-box4 {
+    right: 25.5vw;
+    top: 1162px ;
+}
+

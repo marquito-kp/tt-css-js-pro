@@ -11,7 +11,7 @@ p {
     height: 150px;
     margin: 0 auto;
     display: flex;
-    align-items: flex-end;
+    justify-content: space-between;
 }
 
 .exemplo07-box1,
@@ -23,28 +23,17 @@ p {
     height: 30px;
     margin: 10px;
     border-radius: 5px;
+}
+
+.box-01 {
     display: flex;
-    align-items: center;
-    position: absolute;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
-.exemplo07-box1 {
-    top: 1042px;
-    left: 18vw;
-}
-
-.exemplo07-box2 {
-    top: 1042px;
-    right: 25.5vw;
-}
-
-.exemplo07-box3{
-    left: 18vw;
-    top: 1162px ;
-}
-
-.exemplo07-box4 {
-    right: 25.5vw;
-    top: 1162px ;
+.box-02 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
